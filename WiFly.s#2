@@ -5526,8 +5526,8 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="P+3" gate="VCC" x="134.62" y="50.8" smashed="yes" rot="R180">
 <attribute name="VALUE" x="137.16" y="53.34" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+4" gate="VCC" x="190.5" y="86.36" smashed="yes">
-<attribute name="VALUE" x="187.96" y="83.82" size="1.778" layer="96" rot="R90"/>
+<instance part="P+4" gate="VCC" x="190.5" y="88.9" smashed="yes">
+<attribute name="VALUE" x="187.96" y="86.36" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$2" gate="G$1" x="180.34" y="60.96" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="243.84" y="63.5" smashed="yes" rot="MR0"/>
@@ -5779,6 +5779,7 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <pinref part="U$2" gate="G$1" pin="3.3V"/>
+<wire x1="190.5" y1="86.36" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="2"/>
