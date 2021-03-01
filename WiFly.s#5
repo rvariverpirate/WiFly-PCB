@@ -5763,17 +5763,6 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="264.16" y1="7.62" x2="264.16" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="248.92" y1="25.4" x2="241.3" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="25.4" x2="241.3" y2="0" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="0" x2="248.92" y2="0" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<junction x="248.92" y="0"/>
-</segment>
-</net>
 <net name="VCC" class="1">
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
@@ -5910,17 +5899,6 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="170.18" y1="7.62" x2="170.18" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="JP3" gate="A" pin="1"/>
-<wire x1="154.94" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="25.4" x2="147.32" y2="0" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="0" x2="154.94" y2="0" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<junction x="154.94" y="0"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -5946,17 +5924,6 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="119.38" y="7.62"/>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="119.38" y1="7.62" x2="119.38" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="JP4" gate="A" pin="1"/>
-<wire x1="104.14" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="25.4" x2="96.52" y2="0" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="0" x2="104.14" y2="0" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<junction x="104.14" y="0"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -5989,6 +5956,16 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="152.4" y="58.42"/>
 <label x="152.4" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="154.94" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="25.4" x2="147.32" y2="0" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="0" x2="154.94" y2="0" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<junction x="154.94" y="0"/>
+<label x="147.32" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="GPIO4" class="0">
 <segment>
@@ -6013,12 +5990,32 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="152.4" y="53.34"/>
 <label x="152.4" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="248.92" y1="25.4" x2="241.3" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="25.4" x2="241.3" y2="0" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="0" x2="248.92" y2="0" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<junction x="248.92" y="0"/>
+<label x="241.3" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="GPIO12" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="GPIO12"/>
 <junction x="152.4" y="73.66"/>
 <label x="152.4" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="1"/>
+<wire x1="104.14" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="25.4" x2="96.52" y2="0" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="0" x2="104.14" y2="0" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<junction x="104.14" y="0"/>
+<label x="96.52" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

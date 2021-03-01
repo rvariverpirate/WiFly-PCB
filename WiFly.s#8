@@ -5758,7 +5758,6 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="248.92" y1="7.62" x2="264.16" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="20.32" x2="248.92" y2="7.62" width="0.1524" layer="91"/>
-<junction x="264.16" y="7.62"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="264.16" y1="7.62" x2="264.16" y2="10.16" width="0.1524" layer="91"/>
 </segment>
@@ -5905,7 +5904,6 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="JP3" gate="A" pin="3"/>
 <wire x1="154.94" y1="10.16" x2="170.18" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="22.86" x2="154.94" y2="10.16" width="0.1524" layer="91"/>
-<junction x="170.18" y="10.16"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="170.18" y1="10.16" x2="170.18" y2="12.7" width="0.1524" layer="91"/>
 </segment>
@@ -5943,7 +5941,6 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="JP4" gate="A" pin="3"/>
 <wire x1="104.14" y1="10.16" x2="119.38" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="22.86" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
-<junction x="119.38" y="10.16"/>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="119.38" y1="10.16" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
 </segment>
@@ -5996,15 +5993,6 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="152.4" y="48.26"/>
 <label x="152.4" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<pinref part="JP2" gate="A" pin="3"/>
-<wire x1="200.66" y1="7.62" x2="215.9" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="20.32" x2="200.66" y2="7.62" width="0.1524" layer="91"/>
-<junction x="215.9" y="7.62"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="215.9" y1="7.62" x2="215.9" y2="10.16" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="GPIO2" class="0">
 <segment>
@@ -6018,6 +6006,16 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="U$2" gate="G$1" pin="GPIO12"/>
 <junction x="152.4" y="73.66"/>
 <label x="152.4" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="TODO" class="0">
+<segment>
+<pinref part="Q2" gate="G$1" pin="D"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="200.66" y1="7.62" x2="215.9" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="20.32" x2="200.66" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="215.9" y1="7.62" x2="215.9" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
