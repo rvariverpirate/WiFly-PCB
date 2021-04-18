@@ -5141,14 +5141,14 @@ Source: http://www.osram.convergy.de/</description>
 <description>Double-row, 16-pin Receptacle Header (Female) Straight, 22.86 mm (0.90 in) row pitch, 2.54 mm (0.10 in) col pitch, 2.54 mm insulator length, 20.32 X 25.40 X 2.54 mm body
 &lt;p&gt;Double-row (2X8), 16-pin Receptacle Header (Female) Straight package with 22.86 mm (0.90 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 2.54 mm insulator length with overall size 20.32 X 25.40 X 2.54 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <circle x="0" y="1.774" radius="0.25" width="0" layer="21"/>
-<wire x1="35.56" y1="-24.13" x2="-3.81" y2="-24.13" width="0.12" layer="21"/>
-<wire x1="-3.81" y1="-24.13" x2="-3.81" y2="1.27" width="0.12" layer="21"/>
-<wire x1="-3.81" y1="1.27" x2="35.56" y2="1.27" width="0.12" layer="21"/>
-<wire x1="35.56" y1="1.27" x2="35.56" y2="-24.13" width="0.12" layer="21"/>
-<wire x1="20.32" y1="-24.13" x2="-3.81" y2="-24.13" width="0.12" layer="51"/>
-<wire x1="-3.81" y1="-24.13" x2="-3.81" y2="1.27" width="0.12" layer="51"/>
-<wire x1="-3.81" y1="1.27" x2="20.32" y2="1.27" width="0.12" layer="51"/>
-<wire x1="20.32" y1="1.27" x2="20.32" y2="-24.13" width="0.12" layer="51"/>
+<wire x1="21.59" y1="-24.13" x2="-17.78" y2="-24.13" width="0.12" layer="21"/>
+<wire x1="-17.78" y1="-24.13" x2="-17.78" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-17.78" y1="1.27" x2="21.59" y2="1.27" width="0.12" layer="21"/>
+<wire x1="21.59" y1="1.27" x2="21.59" y2="-24.13" width="0.12" layer="21"/>
+<wire x1="21.59" y1="-24.13" x2="-17.78" y2="-24.13" width="0.12" layer="51"/>
+<wire x1="-17.78" y1="-24.13" x2="-17.78" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-17.78" y1="1.27" x2="21.59" y2="1.27" width="0.12" layer="51"/>
+<wire x1="21.59" y1="1.27" x2="21.59" y2="-24.13" width="0.12" layer="51"/>
 <pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051"/>
 <pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
 <pad name="3" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
@@ -5974,14 +5974,14 @@ Source: http://www.osram.convergy.de/</description>
 <label x="152.4" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="1"/>
-<wire x1="104.14" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="25.4" x2="96.52" y2="0" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="0" x2="104.14" y2="0" width="0.0889" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<junction x="104.14" y="0"/>
-<label x="83.82" y="0" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="154.94" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="25.4" x2="147.32" y2="0" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="0" x2="154.94" y2="0" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<junction x="154.94" y="0"/>
+<label x="137.16" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -5991,14 +5991,14 @@ Source: http://www.osram.convergy.de/</description>
 <label x="152.4" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="A" pin="1"/>
-<wire x1="154.94" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="25.4" x2="147.32" y2="0" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="0" x2="154.94" y2="0" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<junction x="154.94" y="0"/>
-<label x="137.16" y="0" size="1.778" layer="95"/>
+<pinref part="JP4" gate="A" pin="1"/>
+<wire x1="104.14" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="25.4" x2="96.52" y2="0" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="0" x2="104.14" y2="0" width="0.0889" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<junction x="104.14" y="0"/>
+<label x="83.82" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO12" class="0">
